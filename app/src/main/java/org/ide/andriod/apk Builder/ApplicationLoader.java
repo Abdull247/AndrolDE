@@ -7,6 +7,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 
+import org.ide.andriod.DebugActivity;
+
 import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.io.Writer;

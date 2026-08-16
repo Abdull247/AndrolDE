@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#CE93D8</color>
+    <color name="colorControlHighlight">#90CAF9</color>
+    <color name="colorControlNormal">#2196F3</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#0084C2</color>
+    <color name="md_theme_background">#FFFBFE</color>
+    <color name="md_theme_error">#B3261E</color>
+    <color name="md_theme_errorContainer">#F9DEDC</color>
+    <color name="md_theme_inverseOnSurface">#F4EFF4</color>
+    <color name="md_theme_inversePrimary">#D0BCFF</color>
+    <color name="md_theme_inverseSurface">#313033</color>
+    <color name="md_theme_onBackground">#1C1B1F</color>
+    <color name="md_theme_onError">#FFFFFF</color>
+    <color name="md_theme_onErrorContainer">#410E0B</color>
+    <color name="md_theme_onPrimary">#FFFFFF</color>
+    <color name="md_theme_onPrimaryContainer">#21005D</color>
+    <color name="md_theme_onSecondary">#FFFFFF</color>
+    <color name="md_theme_onSecondaryContainer">#1D192B</color>
+    <color name="md_theme_onSecondaryContainerInverse">#E8DEF8</color>
+    <color name="md_theme_onSurface">#1C1B1F</color>
+    <color name="md_theme_onSurfaceVariant">#49454F</color>
+    <color name="md_theme_onTertiary">#FFFFFF</color>
+    <color name="md_theme_onTertiaryContainer">#31111D</color>
+    <color name="md_theme_outline">#79747E</color>
+    <color name="md_theme_primary">#6750A4</color>
+    <color name="md_theme_primaryContainer">#EADDFF</color>
+    <color name="md_theme_secondary">#625B71</color>
+    <color name="md_theme_secondaryContainer">#E8DEF8</color>
+    <color name="md_theme_shadow">#000000</color>
+    <color name="md_theme_surface">#E6E1E5</color>
+    <color name="md_theme_surfaceTint">#6750A4</color>
+    <color name="md_theme_surfaceTintColor">#6750A4</color>
+    <color name="md_theme_surfaceVariant">#E7E0EC</color>
+    <color name="md_theme_tertiary">#7D5260</color>
+    <color name="md_theme_tertiaryContainer">#FFD8E4</color>
+    <color name="seed">#6750A4</color>
+    <string name="app_name">AndroIDE</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <style name="AppTheme" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorOnErrorContainer">@color/md_theme_onErrorContainer</item>
+        <item name="colorOnError">@color/md_theme_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_errorContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="colorError">@color/md_theme_error</item>
+        <item name="colorOutline">@color/md_theme_outline</item>
+        <item name="colorOnBackground">@color/md_theme_onBackground</item>
+        <item name="android:colorBackground">@color/md_theme_background</item>
+        <item name="colorOnSurfaceInverse">@color/md_theme_inverseOnSurface</item>
+        <item name="colorSurfaceInverse">@color/md_theme_inverseSurface</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant</item>
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorPrimaryInverse">@color/md_theme_inversePrimary</item>
+        <item name="android:statusBarColor">?isLightTheme</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">?isLightTheme</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.Material3.Dark.ActionBar"/>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.Material3.Light"/>
+    <style name="AttachBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/AttachSheetAnimation</item>
+    </style>
+    <style name="AttachBottomSheetTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AttachBottomSheetStyle</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="colorSurface">?attr/colorOnSurface</item>
+    </style>
+    <style name="AttachSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_bounce_sheet</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_sheet</item>
+    </style>
+    <style name="PreviewOnlySheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/AttachSheetAnimation</item>
+    </style>
+    <style name="PreviewOnlySheetTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/PreviewOnlySheetStyle</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="colorSurface">?attr/colorOnSurface</item>
+    </style>
+    <style name="pleaseDontDeleteThisFile" parent="Theme.Material3.DayNight.NoActionBar"/>
+    <declare-styleable name="CodeView">
+        <attr format="boolean" name="cv_wrap_line"/>
+        <attr format="integer" name="cv_font_size"/>
+        <attr format="boolean" name="cv_zoom_enable"/>
+        <attr format="boolean" name="cv_show_line_number"/>
+        <attr format="integer" name="cv_start_line_number"/>
+        <attr format="integer" name="cv_highlight_line_number"/>
+    </declare-styleable>
+</resources>

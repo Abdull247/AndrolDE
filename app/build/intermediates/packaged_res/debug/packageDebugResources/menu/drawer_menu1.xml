@@ -1,0 +1,63 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="none"
+        android:id="@+id/settings_menu_group"
+        android:title="Application Preference">
+        <item
+            android:icon="@drawable/ic_team"
+            android:id="@+id/team"
+            android:title="Seisiu Team"/>
+        <item
+            android:icon="@drawable/ic_settings"
+            android:id="@+id/nav_settings"
+            android:title="Settings"
+            app:contentDescription="Settings" />
+
+    </group>
+    
+    <group android:checkableBehavior="none"
+        android:id="@+id/tools_menu_group"
+        android:title="Tools">
+        <item
+            android:icon="@drawable/ic_terminal"
+            android:id="@+id/terminal"
+            android:title="Terminal"/>
+            
+        <item
+            android:icon="@drawable/ic_sign"
+            android:id="@+id/sign"
+            android:title="Apk Sign"/>
+
+    </group>
+    
+    <group android:checkableBehavior="none"
+        android:id="@+id/social_menu_group"
+        android:title="Socials">
+    
+        <item
+           android:icon="@drawable/ic_telegram"
+           android:id="@+id/telegram"
+           android:title="Telegram"/>
+           
+       </group>     
+    
+    <group android:checkableBehavior="none"
+        android:id="@+id/others_menu_group"
+        android:title="Others">
+        <item
+            android:icon="@drawable/ic_share"
+            android:id="@+id/nav_share"
+            android:title="Share"
+            app:contentDescription="share" />
+
+        <item
+            android:icon="@drawable/ic_book"
+            android:id="@+id/nav_licence"
+            android:title="Open source license"
+            app:contentDescription="OpenSourceLicence" />
+    </group>
+
+</menu>

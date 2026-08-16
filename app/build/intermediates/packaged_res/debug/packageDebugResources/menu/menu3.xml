@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/img_manager"
+        android:title="Image Manager" />
+    <item
+        android:id="@+id/icons_lib"
+        android:title="icons Library" />
+    <item
+        android:id="@+id/collection"
+        android:title="Collections" />
+</menu>

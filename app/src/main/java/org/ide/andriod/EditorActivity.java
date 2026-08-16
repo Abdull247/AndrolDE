@@ -38,9 +38,6 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.arch.core.*;
-import androidx.asynclayoutinflater.*;
-import androidx.biometric.*;
-import androidx.constraintlayout.core.*;
 import androidx.constraintlayout.widget.*;
 import androidx.coordinatorlayout.*;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
@@ -58,7 +55,6 @@ import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.interpolator.*;
-import androidx.legacy.coreui.*;
 import androidx.legacy.coreutils.*;
 import androidx.lifecycle.*;
 import androidx.lifecycle.livedata.*;
@@ -70,8 +66,6 @@ import androidx.recyclerview.widget.*;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.RecyclerView.Adapter;
 import androidx.recyclerview.widget.RecyclerView.ViewHolder;
-import androidx.slidingpanelayout.*;
-import androidx.swiperefreshlayout.*;
 import androidx.vectordrawable.*;
 import androidx.versionedparcelable.*;
 import androidx.viewpager.*;
@@ -80,16 +74,6 @@ import com.google.android.material.card.*;
 import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.divider.MaterialDivider;
 import com.google.gson.*;
-import com.googlecode.d2j.*;
-import io.github.rosemoe.editor.*;
-import io.github.rosemoe.sora.*;
-import io.github.rosemoe.sora.langs.base.*;
-import io.github.rosemoe.sora.langs.css3.*;
-import io.github.rosemoe.sora.langs.html.*;
-import io.github.rosemoe.sora.langs.java.*;
-import io.github.rosemoe.sora.langs.python.*;
-import io.github.rosemoe.sora.langs.textmate.*;
-import io.github.rosemoe.sora.langs.universal.*;
 import java.io.*;
 import java.io.InputStream;
 import java.text.*;
@@ -99,9 +83,6 @@ import java.util.HashMap;
 import java.util.Timer;
 import java.util.TimerTask;
 import java.util.regex.*;
-import org.antlr.v4.runtime.*;
-import org.benf.cfr.reader.*;
-import org.eclipse.jdt.*;
 import org.json.*;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabItem;
@@ -125,7 +106,8 @@ import com.apk.builder.FileUtil;
 import com.apk.builder.logger.*;
 import com.apk.builder.SystemLogPrinter;
 import com.tyron.compiler.CompilerAsyncTask;
-import androidx.appcompat.app.AppCompatDelegate;
+import androidx.appcompat.app.AppCompatDelegate;
+
 
 public class EditorActivity extends AppCompatActivity {
 	
@@ -706,11 +688,13 @@ public GitBridge getGitBridge() {
 				
 				// simple click
 				if (FileUtil.isFile(clickedPath)) {
-					_DrawerFileOnClick(clickedPath);
+					_DrawerFileOnClick(clickedPath);
+
 				}
 				else {
 					if (FileUtil.isDirectory(clickedPath)) {
-						_DrawerFolderOnClick(clickedPath);
+						_DrawerFolderOnClick(clickedPath);
+
 					}
 				}
 				
@@ -732,11 +716,14 @@ public GitBridge getGitBridge() {
 			public void onLongClick(String clickedPath){
 				
 				//	Toast.makeText(getApplicationContext(), "long clicked : "+ clickedPath, Toast.LENGTH_SHORT).show();
-				if (FileUtil.isFile(clickedPath)) {
-					_DrawerOnFileLongClick(clickedPath);
+				if (FileUtil.isFile(clickedPath)) {
+
+					_DrawerOnFileLongClick(clickedPath);
+
 				}
 				else {
-					if (FileUtil.isDirectory(clickedPath)) {
+					if (FileUtil.isDirectory(clickedPath)) {
+
 						_DrawerFolderOnLongClicked(clickedPath);
 					}
 				}
@@ -1845,4 +1832,4 @@ public TextSizeHelper getTextSizeHelper() {
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
-}
+}

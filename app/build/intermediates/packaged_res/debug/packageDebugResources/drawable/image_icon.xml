@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is a modified version of AXMLPrinter2(By Google) library. Check out how many changes are made at https://github.com/developer-krushna/AXMLPrinter by (@developer-krushna) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="32dp"
+    android:width="32dp"
+    android:viewportWidth="32.0"
+    android:viewportHeight="32.0">
+    <path
+        android:fillColor="#ff2dcc9f"
+        android:pathData="M30,5.851Q30,16 30,26.149H2Q2,16 2,5.851H30" />
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M24.232,8.541a2.2,2.2 0,1 0,1.127 0.623,2.212 2.212,0 0,0 -1.127,-0.623" />
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M18.111,20.1q-2.724,-3.788 -5.45,-7.575Q8.619,18.147 4.579,23.766q5.449,0 10.9,0 1.316,-1.832 2.634,-3.663" />
+    <path
+        android:fillColor="#ffffffff"
+        android:pathData="M22.057,16q-2.793,3.882 -5.584,7.765 5.584,0 11.169,0Q24.851,19.882 22.057,16Z" />
+</vector>

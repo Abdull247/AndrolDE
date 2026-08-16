@@ -33,9 +33,6 @@ import androidx.annotation.*;
 import androidx.appcompat.*;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.arch.core.*;
-import androidx.asynclayoutinflater.*;
-import androidx.biometric.*;
-import androidx.constraintlayout.core.*;
 import androidx.constraintlayout.widget.*;
 import androidx.coordinatorlayout.*;
 import androidx.core.*;
@@ -48,7 +45,6 @@ import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.interpolator.*;
-import androidx.legacy.coreui.*;
 import androidx.legacy.coreutils.*;
 import androidx.lifecycle.*;
 import androidx.lifecycle.livedata.*;
@@ -56,30 +52,15 @@ import androidx.lifecycle.livedata.core.*;
 import androidx.lifecycle.viewmodel.*;
 import androidx.loader.*;
 import androidx.localbroadcastmanager.*;
-import androidx.slidingpanelayout.*;
-import androidx.swiperefreshlayout.*;
 import androidx.vectordrawable.*;
 import androidx.versionedparcelable.*;
 import androidx.viewpager.*;
 import com.google.gson.*;
-import com.googlecode.d2j.*;
-import io.github.rosemoe.editor.*;
-import io.github.rosemoe.sora.*;
-import io.github.rosemoe.sora.langs.base.*;
-import io.github.rosemoe.sora.langs.css3.*;
-import io.github.rosemoe.sora.langs.html.*;
-import io.github.rosemoe.sora.langs.java.*;
-import io.github.rosemoe.sora.langs.python.*;
-import io.github.rosemoe.sora.langs.textmate.*;
-import io.github.rosemoe.sora.langs.universal.*;
 import java.io.*;
 import java.io.InputStream;
 import java.text.*;
 import java.util.*;
 import java.util.regex.*;
-import org.antlr.v4.runtime.*;
-import org.benf.cfr.reader.*;
-import org.eclipse.jdt.*;
 import org.json.*;
 
 public class ApplicationPrefActivity extends AppCompatActivity {
@@ -308,4 +289,4 @@ public class ApplicationPrefActivity extends AppCompatActivity {
 	public int getDisplayHeightPixels() {
 		return getResources().getDisplayMetrics().heightPixels;
 	}
-}
+}
