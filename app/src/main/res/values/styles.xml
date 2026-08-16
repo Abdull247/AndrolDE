@@ -1,0 +1,30 @@
+<resources>
+    <style name="pleaseDontDeleteThisFile" parent="Theme.Material3.DayNight.NoActionBar"/>
+
+    <style name="AttachBottomSheetTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AttachBottomSheetStyle</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="colorSurface">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="AttachBottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/AttachSheetAnimation</item>
+    </style>
+
+    <style name="AttachSheetAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_up_bounce_sheet</item>
+        <item name="android:windowExitAnimation">@anim/slide_down_sheet</item>
+    </style>
+
+    <style name="PreviewOnlySheetTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/PreviewOnlySheetStyle</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="colorSurface">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="PreviewOnlySheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/AttachSheetAnimation</item>
+    </style>
+</resources>

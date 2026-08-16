@@ -1,0 +1,46 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:id="@+id/diff_row_bg">
+
+	<TextView
+		android:id="@+id/old_line_num"
+		android:layout_width="36dp"
+		android:layout_height="wrap_content"
+		android:gravity="end"
+		android:paddingEnd="4dp"
+		android:textSize="12sp"
+		android:textColor="#808080"
+		android:fontFamily="monospace" />
+
+	<TextView
+		android:id="@+id/new_line_num"
+		android:layout_width="36dp"
+		android:layout_height="wrap_content"
+		android:gravity="end"
+		android:paddingEnd="8dp"
+		android:textSize="12sp"
+		android:textColor="#808080"
+		android:fontFamily="monospace" />
+
+	<TextView
+		android:id="@+id/diff_marker"
+		android:layout_width="16dp"
+		android:layout_height="wrap_content"
+		android:textSize="13sp"
+		android:fontFamily="monospace"
+		android:gravity="center" />
+
+	<TextView
+		android:id="@+id/diff_content"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:textSize="13sp"
+		android:fontFamily="monospace"
+		android:paddingStart="4dp"
+		android:paddingEnd="12dp" />
+
+</LinearLayout>
