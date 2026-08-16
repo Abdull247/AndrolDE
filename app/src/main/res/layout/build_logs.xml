@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="?attr/colorSurface"
+	android:orientation="vertical">
+
+	<LinearLayout
+		android:id="@+id/build_logs_toolbar"
+		android:layout_width="match_parent"
+		android:layout_height="56dp"
+		android:background="?attr/colorPrimaryContainer"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:paddingLeft="4dp"
+		android:paddingRight="4dp">
+
+		<ImageButton
+			android:id="@+id/build_logs_close"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:background="?attr/selectableItemBackgroundBorderless"
+			android:contentDescription="Close"
+			android:padding="12dp"
+			android:src="@drawable/ic_close"
+			app:tint="?attr/colorOnPrimaryContainer" />
+
+		<TextView
+			android:id="@+id/build_logs_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="4dp"
+			android:fontFamily="sans-serif-medium"
+			android:text="Build APK"
+			android:textColor="?attr/colorOnPrimaryContainer"
+			android:textSize="18sp" />
+
+		<View
+			android:layout_width="0dp"
+			android:layout_height="0dp"
+			android:layout_weight="1" />
+
+		<ImageButton
+			android:id="@+id/build_logs_history"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:background="?attr/selectableItemBackgroundBorderless"
+			android:contentDescription="History"
+			android:padding="12dp"
+			android:src="@drawable/ic_history"
+			app:tint="?attr/colorOnPrimaryContainer" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/build_logs_status"
+		android:layout_width="match_parent"
+		android:layout_height="40dp"
+		android:background="?attr/colorSecondaryContainer"
+		android:gravity="center_vertical"
+		android:orientation="horizontal"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp"
+		android:visibility="gone">
+
+		<ImageView
+			android:id="@+id/build_logs_live_dot"
+			android:layout_width="14dp"
+			android:layout_height="14dp"
+			android:contentDescription="Active"
+			android:src="@drawable/ic_live_dot" />
+
+		<TextView
+			android:id="@+id/build_logs_status_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="8dp"
+			android:fontFamily="sans-serif-medium"
+			android:text="Build in progress..."
+			android:textColor="?attr/colorOnSecondaryContainer"
+			android:textSize="13sp" />
+	</LinearLayout>
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1">
+
+		<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/build_logs_recycler"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:clipToPadding="false"
+			android:paddingBottom="16dp" />
+
+		<TextView
+			android:id="@+id/build_logs_empty"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text="No build logs yet"
+			android:textColor="?attr/colorOnSurfaceVariant"
+			android:textSize="14sp"
+			android:visibility="gone" />
+	</FrameLayout>
+</LinearLayout>

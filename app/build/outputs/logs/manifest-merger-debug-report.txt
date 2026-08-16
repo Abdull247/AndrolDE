@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /workspace/app/src/main/AndroidManifest.xml:2:1-141:12
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-141:12
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-141:12
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-141:12
+ADDED from /workspace/app/src/main/AndroidManifest.xml:2:1-147:12
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-147:12
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-147:12
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:2:1-147:12
 MERGED from [com.google.android.material:material:1.12.0] /root/.gradle/caches/8.13/transforms/ef2c4424228e4c0ed3c4e50a5753dfef/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
 MERGED from [com.airbnb.android:lottie:6.5.2] /root/.gradle/caches/8.13/transforms/227d34748118b08fc90a9567e2330b27/transformed/jetified-lottie-6.5.2/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /root/.gradle/caches/8.13/transforms/b3da0131184a5cd1c457d609b34eb291/transformed/jetified-appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
@@ -88,8 +88,8 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:11:2-80
 	android:name
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:11:19-77
 application
-ADDED from /workspace/app/src/main/AndroidManifest.xml:12:2-140:16
-INJECTED from /workspace/app/src/main/AndroidManifest.xml:12:2-140:16
+ADDED from /workspace/app/src/main/AndroidManifest.xml:12:2-146:16
+INJECTED from /workspace/app/src/main/AndroidManifest.xml:12:2-146:16
 MERGED from [com.google.android.material:material:1.12.0] /root/.gradle/caches/8.13/transforms/ef2c4424228e4c0ed3c4e50a5753dfef/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] /root/.gradle/caches/8.13/transforms/ef2c4424228e4c0ed3c4e50a5753dfef/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [com.airbnb.android:lottie:6.5.2] /root/.gradle/caches/8.13/transforms/227d34748118b08fc90a9567e2330b27/transformed/jetified-lottie-6.5.2/AndroidManifest.xml:7:5-20
@@ -200,7 +200,7 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:50:3-55:43
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:52:4-97
 	android:name
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:51:4-34
-activity#org.ide.andriod.ResActivity
+activity#org.ide.andriod.BuildLogsActivity
 ADDED from /workspace/app/src/main/AndroidManifest.xml:56:3-61:43
 	android:screenOrientation
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:61:4-40
@@ -211,8 +211,8 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:56:3-61:43
 	android:configChanges
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:58:4-97
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:57:4-31
-activity#org.ide.andriod.JavActivity
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:57:4-37
+activity#org.ide.andriod.ResActivity
 ADDED from /workspace/app/src/main/AndroidManifest.xml:62:3-67:43
 	android:screenOrientation
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:67:4-40
@@ -224,7 +224,7 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:62:3-67:43
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:64:4-97
 	android:name
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:63:4-31
-activity#org.ide.andriod.LibActivity
+activity#org.ide.andriod.JavActivity
 ADDED from /workspace/app/src/main/AndroidManifest.xml:68:3-73:43
 	android:screenOrientation
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:73:4-40
@@ -236,7 +236,7 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:68:3-73:43
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:70:4-97
 	android:name
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:69:4-31
-activity#org.ide.andriod.MinimalMainActivity
+activity#org.ide.andriod.LibActivity
 ADDED from /workspace/app/src/main/AndroidManifest.xml:74:3-79:43
 	android:screenOrientation
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:79:4-40
@@ -247,8 +247,8 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:74:3-79:43
 	android:configChanges
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:76:4-97
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:75:4-39
-activity#org.ide.andriod.MinimalistListActivity
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:75:4-31
+activity#org.ide.andriod.MinimalMainActivity
 ADDED from /workspace/app/src/main/AndroidManifest.xml:80:3-85:43
 	android:screenOrientation
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:85:4-40
@@ -259,9 +259,11 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:80:3-85:43
 	android:configChanges
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:82:4-97
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:81:4-42
-activity#org.ide.andriod.DebugActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:86:3-90:46
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:81:4-39
+activity#org.ide.andriod.MinimalistListActivity
+ADDED from /workspace/app/src/main/AndroidManifest.xml:86:3-91:43
+	android:screenOrientation
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:91:4-40
 	android:hardwareAccelerated
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:89:4-38
 	android:supportsPictureInPicture
@@ -269,59 +271,69 @@ ADDED from /workspace/app/src/main/AndroidManifest.xml:86:3-90:46
 	android:configChanges
 		ADDED from /workspace/app/src/main/AndroidManifest.xml:88:4-97
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:87:4-33
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:87:4-42
+activity#org.ide.andriod.DebugActivity
+ADDED from /workspace/app/src/main/AndroidManifest.xml:92:3-96:46
+	android:hardwareAccelerated
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:95:4-38
+	android:supportsPictureInPicture
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:96:4-43
+	android:configChanges
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:94:4-97
+	android:name
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:93:4-33
 activity#org.ide.andriod.TestActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:91:3-95:46
+ADDED from /workspace/app/src/main/AndroidManifest.xml:97:3-101:46
 	android:hardwareAccelerated
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:94:4-38
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:100:4-38
 	android:supportsPictureInPicture
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:95:4-43
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:101:4-43
 	android:configChanges
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:93:4-97
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:99:4-97
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:92:4-32
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:98:4-32
 activity#org.ide.andriod.CreateProjectActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:96:3-100:46
+ADDED from /workspace/app/src/main/AndroidManifest.xml:102:3-106:46
 	android:hardwareAccelerated
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:99:4-38
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:105:4-38
 	android:supportsPictureInPicture
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:100:4-43
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:106:4-43
 	android:configChanges
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:98:4-97
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:104:4-97
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:97:4-41
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:103:4-41
 activity#org.ide.andriod.ColorPickerActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:101:3-105:46
+ADDED from /workspace/app/src/main/AndroidManifest.xml:107:3-111:46
 	android:hardwareAccelerated
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:104:4-38
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:110:4-38
 	android:supportsPictureInPicture
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:105:4-43
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:111:4-43
 	android:configChanges
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:103:4-97
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:109:4-97
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:102:4-39
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:108:4-39
 activity#org.ide.andriod.ProjEditorConfigActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:106:3-110:46
+ADDED from /workspace/app/src/main/AndroidManifest.xml:112:3-116:46
 	android:hardwareAccelerated
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:109:4-38
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:115:4-38
 	android:supportsPictureInPicture
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:110:4-43
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:116:4-43
 	android:configChanges
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:108:4-97
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:114:4-97
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:107:4-44
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:113:4-44
 activity#org.ide.andriod.ImageManagerActivity
-ADDED from /workspace/app/src/main/AndroidManifest.xml:111:3-115:46
+ADDED from /workspace/app/src/main/AndroidManifest.xml:117:3-121:46
 	android:hardwareAccelerated
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:114:4-38
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:120:4-38
 	android:supportsPictureInPicture
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:115:4-43
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:121:4-43
 	android:configChanges
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:113:4-97
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:119:4-97
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:112:4-40
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:118:4-40
 provider#androidx.startup.InitializationProvider
-ADDED from /workspace/app/src/main/AndroidManifest.xml:116:3-126:14
+ADDED from /workspace/app/src/main/AndroidManifest.xml:122:3-132:14
 MERGED from [androidx.emoji2:emoji2:1.3.0] /root/.gradle/caches/8.13/transforms/9b86c89c55b4f6f13737d7c9ece6de0e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.emoji2:emoji2:1.3.0] /root/.gradle/caches/8.13/transforms/9b86c89c55b4f6f13737d7c9ece6de0e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /root/.gradle/caches/8.13/transforms/e5d2ef5d8f80b313c637a82b364f224b/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
@@ -331,49 +343,49 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /root/.gradle/cac
 MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/8.13/transforms/9ecba078657b826806b10f64485a6161/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 MERGED from [androidx.startup:startup-runtime:1.1.1] /root/.gradle/caches/8.13/transforms/9ecba078657b826806b10f64485a6161/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
 	android:authorities
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:118:4-58
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:124:4-58
 	android:exported
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:119:4-28
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:125:4-28
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:117:4-58
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:123:4-58
 meta-data#androidx.lifecycle.ProcessLifecycleInitializer
-ADDED from /workspace/app/src/main/AndroidManifest.xml:120:4-122:40
+ADDED from /workspace/app/src/main/AndroidManifest.xml:126:4-128:40
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /root/.gradle/caches/8.13/transforms/e5d2ef5d8f80b313c637a82b364f224b/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
 MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /root/.gradle/caches/8.13/transforms/e5d2ef5d8f80b313c637a82b364f224b/transformed/jetified-lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:122:5-37
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:128:5-37
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:121:5-66
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:127:5-66
 meta-data#androidx.emoji2.text.EmojiCompatInitializer
-ADDED from /workspace/app/src/main/AndroidManifest.xml:123:4-125:40
+ADDED from /workspace/app/src/main/AndroidManifest.xml:129:4-131:40
 MERGED from [androidx.emoji2:emoji2:1.3.0] /root/.gradle/caches/8.13/transforms/9b86c89c55b4f6f13737d7c9ece6de0e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 MERGED from [androidx.emoji2:emoji2:1.3.0] /root/.gradle/caches/8.13/transforms/9b86c89c55b4f6f13737d7c9ece6de0e/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
 	android:value
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:125:5-37
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:131:5-37
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:124:5-63
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:130:5-63
 uses-library#org.apache.http.legacy
-ADDED from /workspace/app/src/main/AndroidManifest.xml:127:3-129:31
+ADDED from /workspace/app/src/main/AndroidManifest.xml:133:3-135:31
 	android:required
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:129:4-28
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:135:4-28
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:128:4-41
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:134:4-41
 provider#androidx.core.content.FileProvider
-ADDED from /workspace/app/src/main/AndroidManifest.xml:131:1-139:12
+ADDED from /workspace/app/src/main/AndroidManifest.xml:137:1-145:12
 	android:grantUriPermissions
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:135:5-39
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:141:5-39
 	android:authorities
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:133:5-51
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:139:5-51
 	android:exported
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:134:5-29
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:140:5-29
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:132:5-54
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:138:5-54
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from /workspace/app/src/main/AndroidManifest.xml:136:5-138:46
+ADDED from /workspace/app/src/main/AndroidManifest.xml:142:5-144:46
 	android:resource
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:138:9-43
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:144:9-43
 	android:name
-		ADDED from /workspace/app/src/main/AndroidManifest.xml:137:9-59
+		ADDED from /workspace/app/src/main/AndroidManifest.xml:143:9-59
 uses-sdk
 INJECTED from /workspace/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /workspace/app/src/main/AndroidManifest.xml

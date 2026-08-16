@@ -54,6 +54,12 @@ android:windowSoftInputMode="adjustPan" />
 			android:supportsPictureInPicture="true"
 			android:screenOrientation="portrait" />
 		<activity
+			android:name=".BuildLogsActivity"
+			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+			android:hardwareAccelerated="true"
+			android:supportsPictureInPicture="true"
+			android:screenOrientation="portrait" />
+		<activity
 			android:name=".ResActivity"
 			android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
 			android:hardwareAccelerated="true"

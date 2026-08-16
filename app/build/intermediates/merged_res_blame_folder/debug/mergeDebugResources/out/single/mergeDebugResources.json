@@ -1,706 +1,726 @@
 [
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_font_size.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/font_size.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_theme.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/theme.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_commit_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_commit_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/menu_drawer_menu1.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/menu/drawer_menu1.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_settings_black.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_settings_black.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_ic_sign.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/ic_sign.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/anim_slide_down_sheet.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/anim/slide_down_sheet.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_folder_unselected.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/folder_unselected.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_redo_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_redo_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_proj_build_features_frag_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/proj_build_features_frag_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_color_picker.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/color_picker.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_info.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/info.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_andro.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/andro.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_create.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/create.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_minimal_main.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/minimal_main.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_back.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_back.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_git_stage_item.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/git_stage_item.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_sign.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/ic_sign.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_terminal_conc_item.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/terminal_conc_item.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_terminal.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/ic_terminal.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/font_enmedium.ttf.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/font/enmedium.ttf"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_book.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/ic_book.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_mat.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/mat.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_app_icon.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/app_icon.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_basic_activity.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_basic_activity.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_exit_to_app_black.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_exit_to_app_black.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_chevron_right_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_chevron_right_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_thumb.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/thumb.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_add_circle_outline_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_add_circle_outline_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_lib_cus_item.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/lib_cus_item.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_delete_outline_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_delete_outline_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/xml_file_paths.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/xml/file_paths.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_file.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/file.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "org.ide.andriod.app-main-36:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_shadow_inverse.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/shadow_inverse.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_cursor.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/cursor.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_run.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/run.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_shadow_inverse.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/shadow_inverse.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_globe_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/globe_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_undo_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_undo_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_ic_book.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/ic_book.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_input_bot2.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/input_bot2.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_done.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_done.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/menu_drawer_menu1.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/menu/drawer_menu1.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_applogo.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/applogo.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_run.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/run.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_done.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/done.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_pencil.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/pencil.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_shadow.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/shadow.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_command_line.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/command_line.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_cursor.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/cursor.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_view.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/view.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_route_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_route_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_drawer_back.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/drawer_back.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_horizontal_color_list.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/horizontal_color_list.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_builder.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/builder.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_color_lens_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_color_lens_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_res.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/res.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_meow.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/meow.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_settings.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/ic_settings.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_keyboard_arrow_up_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_keyboard_arrow_up_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/font_enmedium.ttf.flat",
-        "source": "org.ide.andriod.app-main-36:/font/enmedium.ttf"
+        "merged": "org.ide.andriod.app-debug-34:/layout_build_logs.xml.flat",
+        "source": "org.ide.andriod.app-main-36:/layout/build_logs.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_team.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/ic_team.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_ai_chat_item.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/ai_chat_item.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_draww.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/draww.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/anim_slide_in_enter.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/anim/slide_in_enter.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/anim_slide_up_bounce_sheet.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/anim/slide_up_bounce_sheet.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_draw.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/draw.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_none.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/none.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_git_branches_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/git_branches_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_about_app.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/about_app.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_add.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/add.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/anim_pop_enter.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/anim/pop_enter.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_ic_youtube.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/ic_youtube.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_plus_minus_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_plus_minus_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_search.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/search.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_create_black.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_create_black.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_info.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/info.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_java_icon.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/java_icon.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_color_picker.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/color_picker.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_copy_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/copy_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_vertical_color_list.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/vertical_color_list.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_jav.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/jav.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_draww.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/draww.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_color_lens_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_color_lens_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_send_plane_24.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/send_plane_24.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_draw.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/draw.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_ic_terminal.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/ic_terminal.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/font_enlight.ttf.flat",
-        "source": "org.ide.andriod.app-main-36:/font/enlight.ttf"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_arrow.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/arrow.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/menu_menu3.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/menu/menu3.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_sett.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/sett.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_chevron_right_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_chevron_right_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_folder_open_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/folder_open_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_files_sub_item.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/files_sub_item.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_debug.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/debug.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_andro.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/andro.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_fullscreen_exit_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_fullscreen_exit_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_lib.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/lib.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_terminal_frag_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/terminal_frag_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_file.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/file.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_empty_activity.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_empty_activity.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_file_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/file_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_remove_circle_outline_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_remove_circle_outline_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_add_white.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_add_white.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_back.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/back.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_globe_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/globe_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_keyboard_arrow_left_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_keyboard_arrow_left_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_ai_chat_item.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/ai_chat_item.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_git_remote_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/git_remote_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_minimalist_list.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/minimalist_list.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_fullscreen_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_fullscreen_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_menu.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/menu.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_create_black.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_create_black.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_image_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/image_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_spin1.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/spin1.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_image_cus_item.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/image_cus_item.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_ic_settings.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/ic_settings.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_shadow.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/shadow.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_xml_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/xml_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_item_dir.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/item_dir.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_drawer_activity.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_drawer_activity.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_code_branch.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/code_branch.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_redo_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_redo_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_chatgpt.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/chatgpt.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_copy_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/copy_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_git_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/git_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ide_app_icon.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ide_app_icon.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/menu_menu2.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/menu/menu2.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_documentation.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/documentation.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_all_list.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/all_list.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_jav.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/jav.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_github_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/github_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_stop_gen_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/stop_gen_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_proj_config_settings_frag_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/proj_config_settings_frag_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/font_enlight.ttf.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/font/enlight.ttf"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_item_file.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/item_file.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_exit_to_app_black.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_exit_to_app_black.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_warp.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/warp.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_html_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/html_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_ai_gen_frag_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/ai_gen_frag_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/xml_file_paths.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/xml/file_paths.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_add_circle_outline_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_add_circle_outline_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_proj_config_settings_frag_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/proj_config_settings_frag_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_add.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/add.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_item_file.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/item_file.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ide_app_icon.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ide_app_icon.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_ai_gen_frag_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/ai_gen_frag_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_terminal_conc_item.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/terminal_conc_item.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_image_cus_item.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/image_cus_item.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_route_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_route_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_undo.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/undo.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_save.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/save.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_editor.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/editor.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/font_enbold.ttf.flat",
-        "source": "org.ide.andriod.app-main-36:/font/enbold.ttf"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_pencil.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/pencil.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/anim_pop_exit.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/anim/pop_exit.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_gradle_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/gradle_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_run_frag_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/run_frag_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_image_manager.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/image_manager.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_folder_open_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/folder_open_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_settings_black.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_settings_black.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_check.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/check.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_clear_black.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_clear_black.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_files_sub_frag1_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/files_sub_frag1_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_git_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/git_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_drawer.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/drawer.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_donate.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/donate.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_drawer_activity.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_drawer_activity.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_add_white.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_add_white.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_config_rec_items.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/config_rec_items.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/font_enbold.ttf.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/font/enbold.ttf"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_files_sub_frag2_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/files_sub_frag2_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_logout_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_logout_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_debug.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/debug.xml"
+        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_history.xml.flat",
+        "source": "org.ide.andriod.app-main-36:/drawable/ic_history.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_files_sub_frag3_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/files_sub_frag3_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/anim_slide_up_bounce_sheet.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/anim/slide_up_bounce_sheet.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_fullscreen_exit_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_fullscreen_exit_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_files_sub_frag2_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/files_sub_frag2_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_list.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/list.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_left.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/left.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_share.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/ic_share.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_preview_only_sheet_bottomdialog_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/preview_only_sheet_bottomdialog_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/anim_slide_out_exit.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/anim/slide_out_exit.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_warp.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/warp.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_share_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/share_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_github_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/github_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_applogo.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/applogo.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_keyboard_arrow_down_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_keyboard_arrow_down_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_git_history_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/git_history_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_menu.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/menu.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_redo.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/redo.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_run_frag_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/run_frag_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_git_branches_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/git_branches_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_commit_msg_dialog.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/commit_msg_dialog.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_remove_circle_outline_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_remove_circle_outline_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_plus_minus_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_plus_minus_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_folder_unselected.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/folder_unselected.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/anim_pop_exit.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/anim/pop_exit.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_html_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/html_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_view.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/view.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_play.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/play.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_commit_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_commit_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_test.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/test.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_proj_editor_config.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/proj_editor_config.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_keyboard_arrow_up_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_keyboard_arrow_up_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_minimalist_list.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/minimalist_list.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_edit.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/edit.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_command_line.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/command_line.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_keyboard_arrow_left_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_keyboard_arrow_left_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_aigen.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/aigen.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_arrow.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/arrow.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/menu_menu1.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/menu/menu1.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_commits_history_item.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/commits_history_item.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_create_project.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/create_project.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_proj_build_features_frag_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/proj_build_features_frag_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/anim_slide_down_sheet.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/anim/slide_down_sheet.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_clear_black.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_clear_black.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_git_changes_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/git_changes_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_done_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_done_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_ic_share.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/ic_share.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_xml_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/xml_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_diff_line_item.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/diff_line_item.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_git_changes_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/git_changes_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_play.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/play.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_sett.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/sett.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_undo_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_undo_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_donate.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/donate.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_none.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/none.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_done.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_done.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_redo.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/redo.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_spin1.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/spin1.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_files_frag_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/files_frag_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_preview_only_sheet_bottomdialog_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/preview_only_sheet_bottomdialog_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_ic_telegram.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/ic_telegram.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_mat.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/mat.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_js_icon.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/js_icon.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_delete_outline_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_delete_outline_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/anim_pop_enter.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/anim/pop_enter.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_application_pref.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/application_pref.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_config_rec_items.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/config_rec_items.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_basic_activity.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_basic_activity.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_file_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/file_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_logout_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_logout_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_json_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/json_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_git_remote_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/git_remote_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/menu_menu2.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/menu/menu2.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout__drawer_editor.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/_drawer_editor.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_drawer.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/drawer.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_undo.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/undo.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_link_github_acc_sheet.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/link_github_acc_sheet.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_arrow_drop_down_black.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_arrow_drop_down_black.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_thumb.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/thumb.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_cir.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/cir.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_drawer_back.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/drawer_back.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_folder.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/folder.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_share_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/share_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_youtube.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/ic_youtube.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_files_sub_frag1_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/files_sub_frag1_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_fullscreen_activity.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_fullscreen_activity.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_code_branch.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/code_branch.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_code_background.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/code_background.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_save.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/save.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/anim_slide_in_enter.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/anim/slide_in_enter.xml"
+        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_close.xml.flat",
+        "source": "org.ide.andriod.app-main-36:/drawable/ic_close.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_translate.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/translate.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_tab_des.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/tab_des.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_default_image.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/default_image.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_all_list.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/all_list.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_css_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/css_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_lib_cus_item.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/lib_cus_item.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_diff_line_item.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/diff_line_item.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_list.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/list.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_left.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/left.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_files_sub_frag3_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/files_sub_frag3_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_image_manager.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/image_manager.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_git_history_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/git_history_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_aigen.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/aigen.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_chatgpt.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/chatgpt.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_documentation.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/documentation.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/menu_menu3.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/menu/menu3.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_terminal_frag_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/terminal_frag_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_edit.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/edit.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_telegram.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/ic_telegram.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_out_folder.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/out_folder.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_theme.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/theme.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/anim_slide_out_exit.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/anim/slide_out_exit.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_editor.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/editor.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_text_size_dialog.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/text_size_dialog.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_track.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/track.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_default_image.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/default_image.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_create_project.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/create_project.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_res.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/res.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_main.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/main.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_commits_history_item.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/commits_history_item.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/menu_menu1.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/menu/menu1.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_done_round.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/icon_done_round.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_vertical_color_list.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/vertical_color_list.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_input_bot2.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/input_bot2.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_text_size_dialog.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/text_size_dialog.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_java_icon.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/java_icon.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_meow.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/meow.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_folder.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/folder.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_search.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/search.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_create.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/create.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_fullscreen_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_fullscreen_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_ic_team.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/ic_team.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_minimal_main.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/minimal_main.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_arrow_drop_down_black.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_arrow_drop_down_black.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_horizontal_color_list.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/horizontal_color_list.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_builder.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/builder.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_editor_frag_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/editor_frag_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_item_dir.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/item_dir.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_proj_editor_config.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/proj_editor_config.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_check.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/check.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_commit_msg_dialog.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/commit_msg_dialog.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_back.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_back.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_out_folder.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/out_folder.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_image_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/image_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_send_plane_24.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/send_plane_24.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_application_pref.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/application_pref.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_link_github_acc_sheet.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/link_github_acc_sheet.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_cir.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/cir.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_back.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/back.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_test.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/test.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_diff_dialog_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/diff_dialog_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_fullscreen_activity.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/ic_fullscreen_activity.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_done.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/done.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_editor_frag_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/editor_frag_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_folder_closed_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/folder_closed_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_font_size.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/font_size.png"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_js_icon.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/js_icon.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_code_background.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/code_background.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_json_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/json_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout__drawer_editor.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/_drawer_editor.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_icon_keyboard_arrow_down_round.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/icon_keyboard_arrow_down_round.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_css_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/css_icon.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_stop_gen_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/stop_gen_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_diff_dialog_fragment.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/diff_dialog_fragment.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_gradle_icon.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/gradle_icon.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_files_sub_item.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/files_sub_item.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_git_stage_item.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/git_stage_item.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_track.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/track.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable-xhdpi_ic_empty_activity.png.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable-xhdpi/ic_empty_activity.png"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_main.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/main.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/layout_files_frag_fragment.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/layout/files_frag_fragment.xml"
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_about_app.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/about_app.xml"
     },
     {
-        "merged": "org.ide.andriod.app-debug-34:/drawable_tab_des.xml.flat",
-        "source": "org.ide.andriod.app-main-36:/drawable/tab_des.xml"
+        "merged": "org.ide.andriod.app-debug-34:/layout_item_log_selector.xml.flat",
+        "source": "org.ide.andriod.app-main-36:/layout/item_log_selector.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/layout_lib.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/layout/lib.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_translate.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/translate.png"
+    },
+    {
+        "merged": "org.ide.andriod.app-debug-34:/drawable_ic_live_dot.xml.flat",
+        "source": "org.ide.andriod.app-main-36:/drawable/ic_live_dot.xml"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable-xhdpi_app_icon.png.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable-xhdpi/app_icon.png"
+    },
+    {
+        "merged": "/root/.gradle/daemon/8.13/org.ide.andriod.app-debug-34:/drawable_folder_closed_icon.xml.flat",
+        "source": "/root/.gradle/daemon/8.13/org.ide.andriod.app-main-36:/drawable/folder_closed_icon.xml"
     }
 ]

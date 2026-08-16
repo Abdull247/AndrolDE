@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical"
+	android:orientation="horizontal"
+	android:paddingLeft="16dp"
+	android:paddingTop="12dp"
+	android:paddingRight="16dp"
+	android:paddingBottom="12dp">
+
+	<ImageView
+		android:id="@+id/log_selector_icon"
+		android:layout_width="18dp"
+		android:layout_height="18dp"
+		android:contentDescription="Status"
+		android:src="@drawable/ic_history"
+		android:tint="?attr/colorPrimary" />
+
+	<LinearLayout
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="16dp"
+		android:layout_weight="1"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/log_selector_title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="sans-serif-medium"
+			android:text="Log"
+			android:textColor="?attr/colorOnSurface"
+			android:textSize="15sp" />
+
+		<TextView
+			android:id="@+id/log_selector_subtitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="2dp"
+			android:text=""
+			android:textColor="?attr/colorOnSurfaceVariant"
+			android:textSize="12sp" />
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/log_selector_status"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:fontFamily="sans-serif-medium"
+		android:text=""
+		android:textColor="?attr/colorPrimary"
+		android:textSize="12sp" />
+</LinearLayout>

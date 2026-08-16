@@ -139,6 +139,7 @@ public class EditorActivity extends AppCompatActivity {
 	private GitBridge gitBridge = new GitBridge();
 	private KeyboardVisibilityHelper keyboardHelper;
 	private BuildHelper buildHelper;
+	private com.google.android.material.snackbar.Snackbar buildSnackbar;
 	private boolean isViewModeHidden = false;
 	private WordWrapHelper wordWrapHelper;
 	private TextSizeHelper textSizeHelper;
@@ -281,31 +282,27 @@ private boolean _isDarkModeGlobal;
 		run_ic.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View _view) {
-				com.google.android.material.snackbar.Snackbar.make(linear2, "Build starting....", com.google.android.material.snackbar.Snackbar.LENGTH_SHORT)
-				.setAction("", new View.OnClickListener() { @Override public void onClick(View _view) {} }).show();
-				
-				View alertLayout = getLayoutInflater().inflate(R.layout.builder, null);
-				
-				com.google.android.material.dialog.MaterialAlertDialogBuilder d = new com.google.android.material.dialog.MaterialAlertDialogBuilder(EditorActivity.this);
-				d.setTitle("Project is building");
-				d.setView(alertLayout);
-				d.setMessage("Build in progress, can you wait for a moment?");
-				
-				final androidx.recyclerview.widget.RecyclerView recyclerview = alertLayout.findViewById(R.id.recyclerview);
-				
-				final androidx.appcompat.app.AlertDialog buildDialog = d.create();
-				buildDialog.show();
+				if (BuildHelper.isBuildRunning()) {
+					_showBuildSnackbar();
+					return;
+				}
 				
 				buildHelper = new BuildHelper(
 				EditorActivity.this,
 				getIntent().getStringExtra("path"),
 				"/storage/emulated/0/.androIDE/data/".concat(getIntent().getStringExtra("name")).concat("/")
 				);
-				buildHelper.getLogger().attach(recyclerview);
 				
 				buildHelper.setBuildListener(new BuildHelper.BuildListener() {
 					@Override
-					public void onBuildStarted() {}
+					public void onBuildStarted() {
+						runOnUiThread(new Runnable() {
+							@Override
+							public void run() {
+								_showBuildSnackbar();
+							}
+						});
+					}
 					
 					@Override
 					public void onBuildSuccess(final String apkPath) {
@@ -313,9 +310,14 @@ private boolean _isDarkModeGlobal;
 						runOnUiThread(new Runnable() {
 							@Override
 							public void run() {
-								buildDialog.dismiss();
+								_dismissBuildSnackbar();
 								com.google.android.material.snackbar.Snackbar.make(linear2, "Build successful!", com.google.android.material.snackbar.Snackbar.LENGTH_LONG)
-								.setAction("OK", new View.OnClickListener() { @Override public void onClick(View _view) {} }).show();
+								.setAction("View Logs", new View.OnClickListener() {
+									@Override
+									public void onClick(View _view) {
+										_openBuildLogs();
+									}
+								}).show();
 								_installApk(_finalApkPath);
 							}
 						});
@@ -326,9 +328,14 @@ private boolean _isDarkModeGlobal;
 						runOnUiThread(new Runnable() {
 							@Override
 							public void run() {
-								buildDialog.dismiss();
+								_dismissBuildSnackbar();
 								com.google.android.material.snackbar.Snackbar.make(linear2, "Build failed: " + errorMessage, com.google.android.material.snackbar.Snackbar.LENGTH_LONG)
-								.setAction("OK", new View.OnClickListener() { @Override public void onClick(View _view) {} }).show();
+								.setAction("View Logs", new View.OnClickListener() {
+									@Override
+									public void onClick(View _view) {
+										_openBuildLogs();
+									}
+								}).show();
 							}
 						});
 					}
@@ -661,43 +668,30 @@ public GitBridge getGitBridge() {
 		
 		TreeViewList.isPath = true;
 		
-		
 		nodes2 = new ArrayList<>();
 		node = new TreeViewList.TreeNode<>(new TreeViewList.Dir(rootFolderName));
-        node.expand();
+		node.expand();
 		nodes2.add(node);
-		
-		
-		initData2(path, node);
-		
 		
 		recycler.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
 		
 		adapter = new TreeViewList.TreeViewAdapter(nodes2, Arrays.asList(new TreeViewList.FileNodeBinder(), new TreeViewList.DirectoryNodeBinder()));
-		// whether collapse child nodes when their parent node was close.
-		//        adapter.ifCollapseChildWhileCollapseParent(true);
 		adapter.setOnTreeNodeListener(new TreeViewList.TreeViewAdapter.OnTreeNodeListener() {
 			@Override
 			public boolean onClick(String clickedPath, TreeViewList.TreeNode node, RecyclerView.ViewHolder holder) {
 				if (!node.isLeaf()) {
-					//Update and toggle the node.
+					// Update and toggle the node.
 					onToggle(!node.isExpand(), holder);
-					//                    if (!node.isExpand())
-					//                        adapter.collapseBrotherNode(node);
 				}
 				
-				// simple click
 				if (FileUtil.isFile(clickedPath)) {
 					_DrawerFileOnClick(clickedPath);
-
 				}
 				else {
 					if (FileUtil.isDirectory(clickedPath)) {
 						_DrawerFolderOnClick(clickedPath);
-
 					}
 				}
-				
 				
 				return false;
 			}
@@ -706,51 +700,48 @@ public GitBridge getGitBridge() {
 			public void onToggle(boolean isExpand, RecyclerView.ViewHolder holder) {
 				TreeViewList.DirectoryNodeBinder.ViewHolder dirViewHolder = (TreeViewList.DirectoryNodeBinder.ViewHolder) holder;
 				final ImageView ivArrow = dirViewHolder.getIvArrow();
-				int rotateDegree = isExpand ? 90 : -90;
-				ivArrow.animate().rotationBy(rotateDegree)
-				.start();
+				final ImageView ivFolder = dirViewHolder.getIvFolder();
+				// Set absolute rotation so the icon always matches the real state.
+				ivArrow.animate().rotation(isExpand ? 90 : 0).setDuration(180).start();
+				ivFolder.setImageDrawable(ContextCompat.getDrawable(EditorActivity.this, isExpand ? R.drawable.folder_open_icon : R.drawable.folder_closed_icon));
 			}
-			
 			
 			@Override
 			public void onLongClick(String clickedPath){
-				
-				//	Toast.makeText(getApplicationContext(), "long clicked : "+ clickedPath, Toast.LENGTH_SHORT).show();
 				if (FileUtil.isFile(clickedPath)) {
-
 					_DrawerOnFileLongClick(clickedPath);
-
 				}
 				else {
 					if (FileUtil.isDirectory(clickedPath)) {
-
 						_DrawerFolderOnLongClicked(clickedPath);
 					}
 				}
-				
 			}
-			
 		});
 		recycler.setAdapter(adapter);
 		
-		
-		
-		
-		
-		
-		
+		// Build the whole tree off the UI thread first, then refresh the
+		// adapter so the expanded state of the tree and the icons stay in sync.
+		initData2(path, node, new Runnable() {
+			@Override
+			public void run() {
+				runOnUiThread(new Runnable() {
+					@Override
+					public void run() {
+						adapter.refresh(nodes2);
+					}
+				});
+			}
+		});
 	}
 	
-	public void initData2(String path, final TreeViewList.TreeNode<TreeViewList.Dir> dir){
+	public void initData2(String path, final TreeViewList.TreeNode<TreeViewList.Dir> dir, final Runnable onComplete){
 		
 		final String[] pathStr = {path};
 		
 		new Thread(new Runnable() {
 			@Override
 			public void run() {
-				Looper.prepare();
-				
-				
 				ArrayList<String> rootDir = new ArrayList<>();
 				
 				FileUtil.listDir(pathStr[0], rootDir);
@@ -761,15 +752,15 @@ public GitBridge getGitBridge() {
 					} else if (FileUtil.isDirectory(one)) {
 						TreeViewList.TreeNode<TreeViewList.Dir> dirTree = new TreeViewList.TreeNode<>(new TreeViewList.Dir(one));
 						dir.addChild(dirTree);
-						initData2(one, dirTree);
+						initData2(one, dirTree, null);
 					}
 				}
 				
-				
+				if (onComplete != null) {
+					onComplete.run();
+				}
 			}
 		}).start();
-		
-		
 	}
 	
 	
@@ -1472,6 +1463,8 @@ public GitBridge getGitBridge() {
 			
 			popupMenu.getMenu().add(android.view.Menu.NONE, 6, android.view.Menu.NONE, "Text Size");
 			
+			popupMenu.getMenu().add(android.view.Menu.NONE, 7, android.view.Menu.NONE, "Build Logs");
+			
 			popupMenu.setOnMenuItemClickListener(new android.widget.PopupMenu.OnMenuItemClickListener() {
 				@Override
 				public boolean onMenuItemClick(android.view.MenuItem item) {
@@ -1509,6 +1502,10 @@ public GitBridge getGitBridge() {
 					}
 					else if (id == 6) {
 						_showTextSizeDialog();
+						return true;
+					}
+					else if (id == 7) {
+						_openBuildLogs();
 						return true;
 					}
 					
@@ -1668,6 +1665,40 @@ private void _installApk(String _apkPath) {
 		com.google.android.material.snackbar.Snackbar.make(linear2, "Failed to launch installer: " + e.getMessage(), com.google.android.material.snackbar.Snackbar.LENGTH_LONG)
 			.setAction("OK", new View.OnClickListener() { @Override public void onClick(View _view) {} }).show();
 	}
+}
+
+private void _showBuildSnackbar() {
+	if (buildSnackbar != null && buildSnackbar.isShown()) {
+		return;
+	}
+	buildSnackbar = com.google.android.material.snackbar.Snackbar.make(linear2, "Build Started....", com.google.android.material.snackbar.Snackbar.LENGTH_INDEFINITE)
+		.setAction("View Logs", new View.OnClickListener() {
+			@Override
+			public void onClick(View _view) {
+				_openBuildLogs();
+			}
+		})
+		.setBehavior(new com.google.android.material.snackbar.BaseTransientBottomBar.Behavior() {
+			@Override
+			public boolean canSwipeDismissView(View view) {
+				return false;
+			}
+		});
+	buildSnackbar.show();
+}
+
+private void _dismissBuildSnackbar() {
+	if (buildSnackbar != null && buildSnackbar.isShown()) {
+		buildSnackbar.dismiss();
+	}
+	buildSnackbar = null;
+}
+
+private void _openBuildLogs() {
+	Intent _intent = new Intent(EditorActivity.this, BuildLogsActivity.class);
+	_intent.putExtra("name", getIntent().getStringExtra("name"));
+	_intent.putExtra("data", "/storage/emulated/0/.androIDE/data/".concat(getIntent().getStringExtra("name")).concat("/"));
+	startActivity(_intent);
 }
 
 

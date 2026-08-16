@@ -13,6 +13,47 @@ import java.util.HashMap;
 
 public class BuildHelper {
 
+	private static BuildHelper activeBuild;
+	private static boolean buildRunning = false;
+	private static final java.util.List<BuildStateListener> stateListeners = new java.util.ArrayList<>();
+
+	public interface BuildStateListener {
+		void onBuildFinished(boolean success, String message);
+	}
+
+	public static void addBuildStateListener(BuildStateListener l) {
+		synchronized (stateListeners) {
+			if (!stateListeners.contains(l)) {
+				stateListeners.add(l);
+			}
+		}
+	}
+
+	public static void removeBuildStateListener(BuildStateListener l) {
+		synchronized (stateListeners) {
+			stateListeners.remove(l);
+		}
+	}
+
+	private static void notifyBuildFinished(boolean success, String message) {
+		synchronized (stateListeners) {
+			for (BuildStateListener l : stateListeners) {
+				try {
+					l.onBuildFinished(success, message);
+				} catch (Exception ignored) {
+				}
+			}
+		}
+	}
+
+	public static BuildHelper getActiveBuild() {
+		return activeBuild;
+	}
+
+	public static boolean isBuildRunning() {
+		return buildRunning;
+	}
+
 	public interface BuildListener {
 		void onBuildStarted();
 		void onBuildSuccess(String apkPath);
@@ -55,6 +96,8 @@ public class BuildHelper {
 	}
 
 	public void startBuild() {
+		activeBuild = this;
+		buildRunning = true;
 		if (listener != null) {
 			listener.onBuildStarted();
 		}
@@ -156,7 +199,9 @@ public class BuildHelper {
 			_task.setOnBuildCompleteListener(new CompilerAsyncTask.OnBuildCompleteListener() {
 				@Override
 				public void onBuildSuccess(String apkPath) {
+					buildRunning = false;
 					buildLogger.writeLog(mLogger, true, apkPath);
+					notifyBuildFinished(true, apkPath);
 					if (listener != null) {
 						listener.onBuildSuccess(apkPath);
 					}
@@ -164,7 +209,9 @@ public class BuildHelper {
 
 				@Override
 				public void onBuildFailed(String errorMessage) {
+					buildRunning = false;
 					buildLogger.writeLog(mLogger, false, errorMessage);
+					notifyBuildFinished(false, errorMessage);
 					if (listener != null) {
 						listener.onBuildFailed(errorMessage);
 					}
